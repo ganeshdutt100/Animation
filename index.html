@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+</head>
+<style>
+    body{
+        background-color: #ffa62b;
+    }
+    .main_1 ,.main_2 ,.main_3
+    , .main_4{
+        display: flex;
+        justify-content: center; 
+        margin-top: 10px;
+    }
+    .box1 {
+        background-color: blue;
+        width: 80px;
+        height: 80px;
+        margin: 0 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh1 2s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+    .box2 {
+        background-color: tomato;
+        width: 80px;
+        height: 80px;
+        margin: 20px 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh2 1s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+    .box3 {
+        background-color: rgb(157, 255, 71);
+        width: 80px;
+        height: 80px;
+        margin: 20px 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh3 2s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+    .box4 {
+        background-color: rgb(157, 255, 71);
+        width: 80px;
+        height: 80px;
+        margin: 20px 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh3 2s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+    .box5 {
+        background-color: rgb(157, 255, 71);
+        width: 80px;
+        height: 80px;
+        margin: 20px 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh4 2s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+    .box6 {
+        background-color: rgb(157, 255, 71);
+        width: 80px;
+        height: 80px;
+        margin: 20px 10px;
+        /* transform: skew(10deg) ; */
+        
+        animation: gnaesh5 2s  infinite  ;
+      animation-direction: alternate;
+        /* animation-iteration-count: infinite; */
+    }
+   
+
+
+
+
+    @keyframes gnaesh1 {
+        from{
+        transform: skewx(-30deg) ;
+        
+    }
+    to{
+        transform: skewx(30deg) ;
+        
+        }
+    }
+    @keyframes gnaesh3 {
+        from{
+        transform: rotate(0) ;
+        
+    }
+    to{
+        transform: rotate(360deg) ;
+        
+        }
+    }
+    @keyframes gnaesh2 {
+        from{
+        transform: skewy(-20deg) ;
+        
+    }
+    to{
+        transform: skewy(20deg) ;
+        
+        }
+    }
+
+
+    @keyframes gnaesh4 {
+        from{
+        transform: scale(1.2) ;
+        
+    }
+    to{
+        transform: scale(.4) ;
+        
+        }
+    }
+    @keyframes gnaesh5 {
+        from{
+        width: 80px;
+        
+    }
+    to{
+        width: 20px;
+
+        
+        }
+    }
+</style>
+<body>
+ <center>   <h1 style="font-size: 42px;    font-family: system-ui;">Try to replicate this </h1>
+    <div class="main_1">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+    <div class="main_2">
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="main_3">
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+    </div>
+    <div class="main_4">
+        <div class="box5" style="background-color: red;"></div>
+        <div class="box6" style="background-color: rgb(255, 213, 0);"></div>
+        <div class="box4" style="background-color: rgb(0, 179, 255);"></div>
+    </div>
+
+   <i style="margin-top: 40px;"><h1> <a href="animation_2.html">Lets go and try another things</a></h1></i>
+</center>
+</body>
+</html>

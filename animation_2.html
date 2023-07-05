@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation_2</title>
+</head>
+<style>
+    body{
+        background-color: #ffa62b;
+    }
+    *{
+        border-radius: 10px;
+    }
+    li{
+        font-size:25px ;
+    }
+    .main_1 ,.main_2 ,.main_3
+    , .main_4{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .box1 {
+        background-color: blue;
+        width: 90px;
+        height: 90px;
+        margin: 0 10px;
+       
+        
+        animation-direction: alternate;
+        
+    }
+    .box1:hover{
+        animation: ganesh1 2s  infinite  ;
+
+    }
+    .box2 {
+        background-color: tomato;
+        width: 90px;
+        height: 90px;
+        margin: 20px 10px;
+      
+        
+        /* animation: ganesh2 3s  infinite  ; */
+      animation-direction: alternate;
+      
+    }
+    .box2:hover{
+        animation: ganesh2 2s  infinite  ;
+
+    }
+    .box3 {
+        background-color: rgb(157, 255, 71);
+        width: 90px;
+        height: 90px;
+        margin: 20px 10px;
+       
+        
+        /* animation: ganesh3 2s  infinite  ; */
+      animation-direction: alternate;
+      
+    }
+    .box3:hover{
+        animation: ganesh3 2s  infinite  ;
+
+    }
+    .box4 {
+        background-color: rgb(157, 255, 71);
+        width: 90px;
+        height: 90px;
+        margin: 20px 10px;
+        
+        
+        /* animation: ganesh3 2s  infinite  ; */
+      animation-direction: alternate;
+       
+    }
+    .box4:hover{
+        animation: ganesh3 2s  infinite  ;
+
+    }
+    .box5 {
+        background-color: rgb(157, 255, 71);
+        width: 90px;
+        height: 90px;
+        margin: 20px 10px;
+       
+        
+        /* animation: ganesh4 2s  infinite  ; */
+      animation-direction: alternate;
+       
+    }
+    .box5:hover{
+        animation: ganesh4 2s  infinite  ;
+
+    }
+    .box6 {
+        background-color: rgb(157, 255, 71);
+        width: 90px;
+        height: 90px;
+        margin: 20px 10px;
+        
+        
+        animation: ganesh5 2s  infinite  ;
+      animation-direction: alternate;
+
+    }
+   
+
+
+
+
+    @keyframes ganesh1 {
+        from{
+        transform: scalex(1) ;
+        
+    }
+    to{
+        transform: scalex(2) ;
+        
+        }
+    }
+    @keyframes ganesh3 {
+        0%{
+        width: 90px ;
+        
+    }
+        40%{
+        width: 120px ;
+        height: 150px;
+        
+    }
+        100%{
+        width: 400px ;
+        height: 130px;
+        
+    }
+    
+    }
+    @keyframes ganesh2 {
+        from{
+            padding-left: 0px;
+            padding-bottom: 0px;
+
+        
+    }
+    to{
+        padding-right: 100px;
+        padding-bottom: 100px;
+      /* height: 200px; */
+        
+    }
+
+    }
+    @keyframes ganesh4 {
+        0%{
+        transform: scaley(1) ;
+        
+    }
+        30%{
+        transform: scaley(1.3) ;
+        
+    }
+        90%{
+        /* transform: scaley(1.8) ; */
+        transform: scalex(1.5) ;
+        
+    }
+        100%{
+          transform: scaley(1.8) ;
+          transform: scalex(4) ;
+        
+    }
+    to{
+        transform: scaley(1) ;
+        
+        }
+    }
+    @keyframes ganesh5 {
+        from{
+        width: 100px;
+        
+    }
+    to{
+        width: 20px;
+
+        
+        }
+    }
+    li{
+        margin-top: 10px;
+    }
+</style>
+<body>
+ <center>   <h1 style="font-size: 42px;    font-family: system-ui;">Try to reploicate this (Hover)</h1>
+    <ol>
+ 
+
+  <div class="main_1">
+    <li> <div class="box1"></div></li>
+       
+    </div>
+    <div class="main_2">
+      <li>  <div class="box2"></div></li>
+       
+    </div>
+    <div class="main_3">
+        <li><div class="box3"></div></li>
+       
+    </div>
+    <div class="main_4">
+      <li>  <div class="box5" style="background-color: red;"></div></li>
+       </div>
+    </ol>
+    <i style="margin-top: 40px;"><h1> <a href="animation_3.html">Next</a></h1></i>
+    <i style="margin-top: 40px;"><h1> <a href="index.html">Back</a></h1></i>
+  
+    <i style="margin-top: 40px;"><h1> <a href="https://ganeshdutt100.github.io/Ganesh_Portfolio/">Go to my Portfolio</a></h1></i>
+
+    </center>
+
+</body>
+</html>
